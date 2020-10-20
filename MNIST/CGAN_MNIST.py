@@ -7,8 +7,6 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 mnist=input_data.read_data_sets('MNIST_data', one_hot=True)
 
-#CGAN-특정 이미지를 생성하기 위해
-#GAN이 어떤 이미지를 만들어낼지 제어하기 위해 - GAN의 활용도 측면에서
 total_epoch=100000
 batch_size=256
 n_noise=100
