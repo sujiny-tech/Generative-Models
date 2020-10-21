@@ -143,23 +143,6 @@ def discriminator(x, y, reuse=None):
 
         return output, output1
 
-'''
-def generator(z, y, reuse=None):
-    with tf.variable_scope('generator', reuse=reuse):
-        zy=tf.concat([z,y], axis=1)
-        output=tf.layers.dense(zy, n_h1, activation=tf.nn.relu)
-        output=tf.layers.dense(output, 784, activation=tf.nn.tanh)
-        return output
-
-def discriminator(x, y, reuse=None):
-    with tf.variable_scope('discriminator', reuse=reuse):
-        xy=tf.concat([x,y], axis=1)
-        output=tf.layers.dense(xy, n_h1, activation=tf.nn.relu)
-        output1=tf.layers.dense(output, 1, activation=None)
-        output=tf.nn.sigmoid(output1)
-
-        return output, output1
-'''
 G=generator(Z,Y)
 D_real, D_logit_real=discriminator(X,Y)
 D_fake, D_logit_fake=discriminator(G,Y,reuse=True)
@@ -182,10 +165,6 @@ update_ops=tf.get_collection(tf.GraphKeys.UPDATE_OPS)
 with tf.control_dependencies(update_ops):
     D_solver=tf.train.AdamOptimizer(lr,beta1).minimize(D_loss, var_list=D_vars, global_step=D_global_step)
     G_solver=tf.train.AdamOptimizer(lr,beta1).minimize(G_loss, var_list=G_vars, global_step=G_global_step)
-####
-#D_solver=tf.train.AdamOptimizer(lr,beta1,beta2).minimize(D_loss, var_list=D_vars)
-#G_solver=tf.train.AdamOptimizer(lr,beta1,beta2).minimize(G_loss, var_list=G_vars)
-####
 
 config=tf.ConfigProto()
 config.gpu_options.allow_growth=True
