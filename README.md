@@ -1,4 +1,4 @@
 # Generative-Adversarial-Networks
 
 
-Purpose: Review GAN and study github!
+Purpose: GAN review and github study!
