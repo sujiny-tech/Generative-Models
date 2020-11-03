@@ -84,6 +84,7 @@ theta_DB= [ D_B_W1, D_B_W2, D_B_b1, D_B_b2]
 theta_G = [G_AB_W1, G_AB_W2, G_AB_b1, G_AB_b2,
            G_BA_W1, G_BA_W2, G_BA_b1, G_BA_b2]
 
+#What to change later: model structure -> deep convolution network
 def G_AB(X):
     h1 = tf.nn.relu(tf.matmul(X, G_AB_W1) + G_AB_b1)
     return tf.nn.sigmoid(tf.matmul(h1, G_AB_W2) + G_AB_b2)
