@@ -1,10 +1,3 @@
-#pIx2pix는 cgan의 일종, 이미지 변환에 폭넓게 사용되면서 픽스투픽스라는 이름을 갖게된것
-#but, pix2pix 학습시 이미지쌍이 필요한데, 사실 현실에서 쌍으로 구성된 이미지를 항상 얻을수 있는건 아님.
-#어떤 도메인에 속하는 데이터를 구하는 것.
-
-#어떤 도메인에 속하는 이미지 x를 입력하여 다른 도메인에 속하는 이미지 y로 변환하는 방법이 개발- cycleGAN
-#모드붕괴 방지하려고, 생성한 이미지 G(x)를 입력된 이미지 x로 다시 변환할수있어야함. -> 즉, F(G(x))=x
-#즉, 입력이미지를 변환하되 복구가 가능하도록 변환해야한다.
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -95,6 +88,7 @@ theta_DB=[D_B_W1, D_B_W2, D_B_W3, D_B_b1, D_B_b2, D_B_b3]
 theta_G=[G_AB_W1, G_AB_W2, G_AB_W3, G_AB_b1, G_AB_b2, G_AB_b3,
           G_BA_W1, G_BA_W2, G_BA_W3, G_BA_b1, G_BA_b2, G_BA_b3]
 
+#What needs to be fixed: model changes
 def G_AB(X):
     h1=tf.nn.relu(tf.matmul(X, G_AB_W1)+G_AB_b1)
     h1=tf.nn.relu(tf.matmul(h1,G_AB_W2)+G_AB_b2)
