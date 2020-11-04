@@ -46,6 +46,7 @@ X_test=X_test.reshape(-1, 28, 28, 1)
 
 sample_size=60000
 
+#What needs to be fixed : Hyperparameters Optimization
 lr=0.0002
 beta1=0.5
 beta2=0.99
