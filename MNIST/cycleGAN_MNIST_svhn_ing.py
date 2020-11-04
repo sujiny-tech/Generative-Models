@@ -32,14 +32,16 @@ mnist=input_data.read_data_sets('MNIST_data', one_hot=True)
 
 X_train, y_train = load_data('train_32x32.mat')
 X_train, y_train = X_train.transpose((3,0,1,2)), y_train[:,0]
-X_train=X_train[:,1:29, 1:29, :]
+X_train=X_train[:60000,1:29, 1:29, :]
 X_train = rgb2gray(X_train).astype(np.float32)
+X_train=(X_train-127.5) / 127.5 ##
 X_train=X_train.reshape(-1, 784)
 
 X_test, y_test = load_data('test_32x32.mat')
 X_test, y_test = X_test.transpose((3,0,1,2)), y_test[:,0]
-X_test=X_test[:,1:29, 1:29, :]
+X_test=X_test[:10000,1:29, 1:29, :]
 X_test = rgb2gray(X_test).astype(np.float32)
+X_test=(X_test-127.5) / 127.5 ##
 X_test=X_test.reshape(-1, 784)
 
 sample_size=60000
@@ -88,7 +90,7 @@ theta_DB=[D_B_W1, D_B_W2, D_B_W3, D_B_b1, D_B_b2, D_B_b3]
 theta_G=[G_AB_W1, G_AB_W2, G_AB_W3, G_AB_b1, G_AB_b2, G_AB_b3,
           G_BA_W1, G_BA_W2, G_BA_W3, G_BA_b1, G_BA_b2, G_BA_b3]
 
-#What needs to be fixed: model changes
+#What needs to be fixed: model changes, Hyperparameters Optimization 
 def G_AB(X):
     h1=tf.nn.relu(tf.matmul(X, G_AB_W1)+G_AB_b1)
     h1=tf.nn.relu(tf.matmul(h1,G_AB_W2)+G_AB_b2)
@@ -154,7 +156,6 @@ for epoch_ in range(epoch):
     batch_B= X_train[epoch_*batch_size:(epoch_+1)*batch_size] #
 
     batch_A = 2 * batch_A.astype(np.float32)-1 #
-    batch_B = 2 * batch_B.astype(np.float32)-1 #
 
     DA_loss_cur,_=sess.run([DA_loss, DA_solver], feed_dict={X_A:batch_A, X_B:batch_B})
     DB_loss_cur,_=sess.run([DB_loss, DB_solver], feed_dict={X_A:batch_A, X_B:batch_B})
@@ -164,6 +165,9 @@ for epoch_ in range(epoch):
 
     if (epoch_+1)%100==0:
         test_mnist, _=mnist.test.next_batch(100)
+        test_mnist = 2 * test_mnist.astype(np.float32)-1 #
+
+        test_batch_B=X_test[:100]
         sample_A=sess.run(X_BA,feed_dict={X_B:X_test[:100]})
         sample_B=sess.run(X_AB,feed_dict={X_A:test_mnist})
 
