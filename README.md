@@ -10,7 +10,7 @@ MNIST 데이터 셋
  - InfoGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/InfoGAN_MNIST.py
  - cycleGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/cycleGAN_MNIST_svhn_model_v2.py
  
- 
+
  
 Celeba 데이터 셋
  - DCGAN 
