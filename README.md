@@ -1,8 +1,7 @@
 # Generative-Adversarial-Networks
 
 
-Purpose: GAN review and github study!
-1. MNIST
+1. MNIST 데이터 셋
  - GAN
  - LSGAN
  - DCGAN
@@ -11,11 +10,11 @@ Purpose: GAN review and github study!
  - InfoGAN
  - cycleGAN
  
-2. Celba
+2. Celba 데이터 셋
  - DCGAN
  - cycleGAN
  
-3. Fashion-MNIST
+3. Fashion-MNIST 데이터 셋
  - CGAN
  - WGAN
  - WGAN-GP
