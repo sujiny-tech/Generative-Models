@@ -10,23 +10,25 @@ MNIST 데이터 셋
  - InfoGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/InfoGAN_MNIST.py
  - cycleGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/cycleGAN_MNIST_svhn_model_v2.py
  
+ 
 Celba 데이터 셋
  - DCGAN 
-  1) RGB, 28x28 픽셀 데이터
+   1) RGB, 28x28 픽셀 데이터
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/DCGAN_celeba.py
-  2) RGB, 84x84 픽셀 데이터
+   2) RGB, 84x84 픽셀 데이터
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/DCGAN_celeba_84size.py
-  3) 학습한 모델을 이용한 latent vector arithmetic
+   3) 학습한 모델을 이용한 latent vector arithmetic
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/DCGAN_latent_vector.py 
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/vector_arithmetic.py
-  4) 2)번 버전의 배치사이즈 다르게 한 버전 
+   4) 2 버전의 배치사이즈 다르게 한 버전 
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/origin2_ver2_batchsize.py
  - cycleGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/cycleGAN_Celeba.py
- 
+
+
 Fashion-MNIST 데이터 셋
  - CGAN : 
-  1) fully connected layer 구조 : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Fashion-MNIST/CGAN_dense_layer1.py
-  2) deep convolutional layer 구조 
+   1) fully connected layer 구조 : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Fashion-MNIST/CGAN_dense_layer1.py
+   2) deep convolutional layer 구조 
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Fashion-MNIST/CGAN_Fashion_MNIST.py
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Fashion-MNIST/CGAN_structure_change.py
  - WGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Fashion-MNIST/WGAN_Fashion_MNIST.py
