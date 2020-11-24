@@ -10,6 +10,8 @@ MNIST 데이터 셋
  - InfoGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/InfoGAN_MNIST.py
  - cycleGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/cycleGAN_MNIST_svhn_model_v2.py
  
+ 
+ 
 Celeba 데이터 셋
  - DCGAN 
    1) RGB, 28x28 픽셀 데이터
@@ -22,6 +24,8 @@ Celeba 데이터 셋
    4) 2 버전의 배치사이즈 다르게 한 버전 
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/origin2_ver2_batchsize.py
  - cycleGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/cycleGAN_Celeba.py
+
+
 
 Fashion-MNIST 데이터 셋
  - CGAN : 
