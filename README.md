@@ -10,8 +10,7 @@ MNIST 데이터 셋
  - InfoGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/InfoGAN_MNIST.py
  - cycleGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/cycleGAN_MNIST_svhn_model_v2.py
  
-
- 
+ --------
 Celeba 데이터 셋
  - DCGAN 
    1) RGB, 28x28 픽셀 데이터
@@ -25,8 +24,7 @@ Celeba 데이터 셋
     : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/origin2_ver2_batchsize.py
  - cycleGAN : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/cycleGAN_Celeba.py
 
-
-
+--------
 Fashion-MNIST 데이터 셋
  - CGAN : 
    1) fully connected layer 구조 : https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Fashion-MNIST/CGAN_dense_layer1.py
