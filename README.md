@@ -31,7 +31,7 @@
 
     + epoch = 100000 (숫자 4에 대한 synthetic data)   
       <img src="https://user-images.githubusercontent.com/72974863/101123112-6923ff00-3637-11eb-9b20-7ba6fab2293a.png" width="40%" height="40%">
-!
+
  - [InfoGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/InfoGAN_MNIST.py)
     + epoch = 10000   
       <img src="https://user-images.githubusercontent.com/72974863/101123292-df286600-3637-11eb-8a85-6ecf1b18f67b.png" width="40%" hegiht="40%">
@@ -50,8 +50,8 @@
          <img src="https://user-images.githubusercontent.com/72974863/101124100-b2754e00-3639-11eb-9748-6497c212b1ad.png" width="40%" height="40%">
 
     + [RGB, 84x84 픽셀 데이터](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/DCGAN_celeba_84size.py)
-       + epoch = 110
-         <img src="https://user-images.githubusercontent.com/72974863/101123995-688c6800-3639-11eb-9213-b782c566ffd2.png" width="40%" hegiht+"40%">
+       + epoch = 110   
+         <img src="https://user-images.githubusercontent.com/72974863/101123995-688c6800-3639-11eb-9213-b782c566ffd2.png" width="40%" hegiht="40%">
          
     + [2번 버전(RGB, 84x84 픽셀 데이터)의 배치사이즈 변경한 버전](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/origin2_ver2_batchsize.py)
        + epoch =110   
@@ -65,7 +65,7 @@
             <img src="https://user-images.githubusercontent.com/72974863/101124957-675c3a80-363b-11eb-94d2-ed90c2d36e7d.png" width="40%" height="40%">
           + smiling_man !   
             <img src="https://user-images.githubusercontent.com/72974863/101125101-c15d0000-363b-11eb-9191-b585ff4f9d3d.png" width="40%" height="40%">
-          + glasses_man(1행) - neutral_man + neutral_woman(3행) = glasses_woman ?   
+          + glasses_man(1행 이미지) - neutral_man(2행 이미지) + neutral_woman(3행 이미지) = glasses_woman ?   
             <img src="https://user-images.githubusercontent.com/72974863/101125374-71326d80-363c-11eb-91f7-14d08d884e01.png" width="40%" height="40%">
           + glasses_woman ! ~~(3번째 안경...? 🙄)~~   
             <img src="https://user-images.githubusercontent.com/72974863/101125422-8dcea580-363c-11eb-8ea1-9694182df39f.png" width="40%" height="40%">
