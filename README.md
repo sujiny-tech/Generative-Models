@@ -7,7 +7,7 @@
  - [WGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/WGAN_MNIST.py)
  - [CGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/CGAN_MNIST.py)
  - [InfoGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/InfoGAN_MNIST.py)
- - [cycleGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/cycleGAN_MNIST_svhn_model_v2.py)
+ - [cycleGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/cycleGAN_MNIST_svhn_model_v2.py) : 파라미터 조절 필요
  
  --------
 ## Celeba 데이터 셋
@@ -17,7 +17,7 @@
     + [DCGAN_latent_vector_1](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/DCGAN_latent_vector.py)
     + [vector_arithmetic_2](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/vector_arithmetic.py)
     + [2번 버전(RGB, 84x84 픽셀 데이터)의 배치사이즈 변경한 버전](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/origin2_ver2_batchsize.py)
- - [cycleGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/cycleGAN_Celeba.py)
+ - [cycleGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/cycleGAN_Celeba.py) : 파라미터 조절 필요
 
 --------
 ## Fashion-MNIST 데이터 셋
