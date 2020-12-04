@@ -44,7 +44,7 @@
 ## Celeba 데이터 셋
  - DCGAN 
     + [RGB, 28x28 픽셀 데이터](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/DCGAN_celeba.py)
-       + epoch = 200   
+       + batch size 128, epoch = 200   
          <img src="https://user-images.githubusercontent.com/72974863/101123537-6b3a8d80-3638-11eb-9aa2-0eece6d2d76b.png" width="40%" height="40%">
        + batch size 500, epoch = 200   
          <img src="https://user-images.githubusercontent.com/72974863/101124100-b2754e00-3639-11eb-9748-6497c212b1ad.png" width="40%" height="40%">
