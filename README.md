@@ -119,5 +119,5 @@
        <img src="https://user-images.githubusercontent.com/72974863/107949550-c98cd080-6fd8-11eb-9571-47efd04c7b4f.png" width="40%" height="40%">    
     
     + CD-50
-       <img src="(https://user-images.githubusercontent.com/72974863/107949570-cf82b180-6fd8-11eb-929e-ede1e5761ee8.png" width="40%" height="40%">    
+       <img src="https://user-images.githubusercontent.com/72974863/107949570-cf82b180-6fd8-11eb-929e-ede1e5761ee8.png" width="40%" height="40%">    
        
