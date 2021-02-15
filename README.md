@@ -108,16 +108,20 @@
 
 #### MNIST 데이터 셋
  - [Binary_RBM](https://github.com/sujiny-tech/Generative-Models/blob/main/Restricted%20Boltzmann%20Machine(RBM)/Binary_RBM_MNIST.py)
-    + CD-1
+    + CD-1   
+    
        <img src="https://user-images.githubusercontent.com/72974863/107949512-ba0d8780-6fd8-11eb-92f0-476228a42867.png" width="40%" height="40%">    
        
        
-    + CD-2
+    + CD-2   
+    
        <img src="https://user-images.githubusercontent.com/72974863/107949530-c2fe5900-6fd8-11eb-9c2f-3cc849734d40.png" width="40%" height="40%">    
     
-    + CD-20
+    + CD-20   
+    
        <img src="https://user-images.githubusercontent.com/72974863/107949550-c98cd080-6fd8-11eb-9571-47efd04c7b4f.png" width="40%" height="40%">    
     
-    + CD-50
+    + CD-50   
+    
        <img src="https://user-images.githubusercontent.com/72974863/107949570-cf82b180-6fd8-11eb-929e-ede1e5761ee8.png" width="40%" height="40%">    
        
