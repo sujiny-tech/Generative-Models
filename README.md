@@ -1,6 +1,9 @@
-# Generative-Adversarial-Networks
+# Generative-Models
 
-## MNIST 데이터 셋
+## Generative-Adversarial-Networks (GAN)
+
+#### MNIST 데이터 셋 
+   
  - [GAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/GAN_MNIST.py)
     + epoch = 10000   
       <img src="https://user-images.githubusercontent.com/72974863/101121901-8dcaa780-3634-11eb-949a-9a4765a32794.png" width="40%" hegiht="40%">   
@@ -39,9 +42,10 @@
       <img src="https://user-images.githubusercontent.com/72974863/101123296-e3ed1a00-3637-11eb-84fd-1393770cb429.png" width="40%" height="40%">
 
  - [cycleGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/cycleGAN_MNIST_svhn_model_v2.py) : 파라미터 조절 필요
+
  
- --------
-## Celeba 데이터 셋
+#### Celeba 데이터 셋
+   
  - DCGAN 
     + [RGB, 28x28 픽셀 데이터](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/DCGAN_celeba.py)
        + batch size 128, epoch = 200   
@@ -72,8 +76,9 @@
        
  - [cycleGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/cycleGAN_Celeba.py) : 파라미터 조절 필요
 
---------
-## Fashion-MNIST 데이터 셋
+
+#### Fashion-MNIST 데이터 셋
+
  - CGAN : 
     + [fully connected layer 구조](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Fashion-MNIST/CGAN_dense_layer1.py)
        + epoch =1000   
@@ -96,3 +101,23 @@
       <img src="https://user-images.githubusercontent.com/72974863/101127154-42b69180-3640-11eb-95b7-69cde1107000.png" width="40%" height="40%">
     + epoch = 10000 (fashion-mnist 데이터셋)   
       <img src="https://user-images.githubusercontent.com/72974863/101127265-8d380e00-3640-11eb-9d31-99e7595dd5b2.png" width="40%" height="40%">
+
+---------------
+
+## Restricted Boltzmann Machine(RBM)
+
+#### MNIST 데이터 셋
+ - [Binary_RBM](https://github.com/sujiny-tech/Generative-Models/blob/main/Restricted%20Boltzmann%20Machine(RBM)/Binary_RBM_MNIST.py)
+    + CD-1
+       <img src="https://user-images.githubusercontent.com/72974863/107949512-ba0d8780-6fd8-11eb-92f0-476228a42867.png" width="40%" height="40%">    
+       
+       
+    + CD-2
+       <img src="https://user-images.githubusercontent.com/72974863/107949530-c2fe5900-6fd8-11eb-9c2f-3cc849734d40.png" width="40%" height="40%">    
+    
+    + CD-20
+       <img src="https://user-images.githubusercontent.com/72974863/107949550-c98cd080-6fd8-11eb-9571-47efd04c7b4f.png" width="40%" height="40%">    
+    
+    + CD-50
+       <img src="(https://user-images.githubusercontent.com/72974863/107949570-cf82b180-6fd8-11eb-929e-ede1e5761ee8.png" width="40%" height="40%">    
+       
