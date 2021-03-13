@@ -41,8 +41,6 @@
     + epoch = 100000   
       <img src="https://user-images.githubusercontent.com/72974863/101123296-e3ed1a00-3637-11eb-84fd-1393770cb429.png" width="40%" height="40%">
 
- - [cycleGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/MNIST/cycleGAN_MNIST_svhn_model_v2.py) : 파라미터 조절 필요
-
  
 #### Celeba 데이터 셋
    
@@ -74,8 +72,6 @@
           + glasses_woman ! ~~(3번째 안경...? 🙄)~~   
             <img src="https://user-images.githubusercontent.com/72974863/101125422-8dcea580-363c-11eb-8ea1-9694182df39f.png" width="40%" height="40%">
        
- - [cycleGAN](https://github.com/sujiny-tech/Generative-Adversarial-Networks/blob/main/Celeba/cycleGAN_Celeba.py) : 파라미터 조절 필요
-
 
 #### Fashion-MNIST 데이터 셋
 
